@@ -20,7 +20,7 @@
 	<?php endif; ?>
 	<?php wp_head(); ?>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="wp-content/themes/twentysixteen/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/twentysixteen/css/style.css">
 </head>
 
 <body <?php body_class(); ?>>

@@ -1,14 +1,4 @@
-
-
 <?php get_header(); ?>
-<?php 
-
-	$term = $_GET['term']; 
-	if(!isset($term)){
-		$term = 'all';
-	}
-
-?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
@@ -27,13 +17,7 @@
 			// End of the loop.
 		endwhile;
 		?>
-		<?php 
-
-			$red_images = get_image_urls_by_taxonomy('red'); 
-				foreach($red_images as $image){
-					print '<img src="'.$image.'">';
-				}
-		?>
+		<!-- <?php //echo photo_gallery(1); ?> -->
 	</main><!-- .site-main -->
 
 	<?php get_sidebar( 'content-bottom' ); ?>
